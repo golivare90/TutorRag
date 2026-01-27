@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tutor Gemini</title>
+    <style>
+        body { font-family: sans-serif; width: 300px; padding: 10px; background-color: #f0f0f5; } /* CRÍTICO: Define el ancho fijo del popup */
+        h2 { color: #38bdf8; font-size: 1.2em; border-bottom: 1px solid #ddd; padding-bottom: 5px; }
+        button { 
+            background-color: #38bdf8; color: white; border: none; padding: 10px 15px; 
+            border-radius: 5px; cursor: pointer; margin-bottom: 10px; width: 100%; 
+            font-weight: bold; transition: background-color 0.3s;
+        }
+        button:hover { background-color: #2563eb; }
+        #output { border: 1px solid #ddd; padding: 10px; min-height: 100px; background-color: white; border-radius: 5px; }
+        #loading { display: none; color: #818cf8; text-align: center; font-style: italic; }
+    </style>
+</head>
+<body>
+    <h2>DBless RAG: Asistente Educativo</h2>
+    <button id="analyzeButton">Analizar y Generar Preguntas</button>
+    <div id="loading">Cargando contexto y generando respuesta...</div>
+    <div id="output">El resultado del análisis aparecerá aquí.</div>
+    <script src="popup.js"></script> 
+</body>
+</html>

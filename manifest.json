@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Tutor Gemini DBless RAG",
+    "version": "1.0",
+    "description": "Utiliza la API de Gemini para generar contenido educativo basado en la página actual.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
