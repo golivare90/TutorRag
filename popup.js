@@ -1,5 +1,5 @@
 // CLAVE DE API: ¡REEMPLAZAR CON TU CLAVE DE GOOGLE AI STUDIO!
-const API_KEY = "AIzaSyCoyPNg5qbRa8C-lC094yRHt7LaTxcu4ak"; 
+const API_KEY = "AQUI_VA_TU_API_KEY"; 
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
 
 
